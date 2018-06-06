@@ -13,12 +13,12 @@ This post shows how to create Qt Creator cross development environment on Ubuntu
                                           Qt Creator 4.6.1 (host)
                                           Raspbian Stretch April 2018 version running on Raspberry Pi 3 (target                                                         Qt 5.7.0 (target)
                                               
-Steps
-1. Host Preparation (Ubuntu)
-1-1. Install dependencies.
+### Steps
+### 1. Host Preparation (Ubuntu)
+### 1-1. Install dependencies.
 
-### sudo apt-get update
-### sudo apt-get install curl g++ gdb-multiarch git unzip zip -y
+* sudo apt-get update
+* sudo apt-get install curl g++ gdb-multiarch git unzip zip -y
 
 1-2. Configure environment variable for Qt version. As of writing this, QtRpi supports only 5.6.2 and 5.7.0. [2]
 
