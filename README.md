@@ -78,6 +78,7 @@ This post shows how to create Qt Creator cross development environment on Ubuntu
 ### 4-2. Create symbolic links since some libraries has changed names in Stretch. [4] [5] [6]
 
 *sudo ln -s /opt/vc/lib/libbrcmEGL.so /usr/lib/arm-linux-gnueabihf/libEGL.so*
+
 *sudo ln -s /opt/vc/lib/libbrcmGLESv2.so /usr/lib/arm-linux-gnueabihf/libGLESv2.so*
 
 ### 4-3. Copy font files.
